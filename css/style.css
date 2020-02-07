@@ -69,12 +69,14 @@ body {
     line-height: 16px;
     display: block;
     margin-bottom: 16px;
+    animation-delay: 0.1s;
 }
 
 .rating {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    animation-delay: 0.2s;
 }
 
 .rating-number {
@@ -88,6 +90,7 @@ body {
     line-height: 89px;
     font-family: MasonChronicles, serif;
     margin-bottom: 10px;
+    animation-delay: 0.3s;
 }
 
 .main-description {
@@ -95,17 +98,27 @@ body {
     line-height: 150%;
     max-width: 458px;
     margin-bottom: 40px;
+    animation-delay: 0.4s;
 }
 
 .button {
+    display: inline-block;
     background: #9D2929;
     border-radius: 8px;
     border: none;
     color: #FFFFFF;
     padding: 22px 72px;
+    text-decoration: none;
+    animation-delay: 0.5s;
+}
+.button:active {
+    color: #FFFFFF;
 }
 
 .play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100px;
     height: 100px;
     background: #9D2929;
@@ -130,6 +143,7 @@ body {
     border-radius: 50%;
     left: -16px;
     top: -16px;
+    animation: pulse 0.5s ease-in-out 0.5s infinite;
 }
 
 /* slider */

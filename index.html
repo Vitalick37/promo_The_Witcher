@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic-ext"
         rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -39,8 +41,8 @@
         <div class="container">
             <div class="main-content">
                 <div class="content">
-                    <span class="genre">2019, фэнтези</span>
-                    <div class="rating">
+                    <span class="genre animated  fadeInRight">2019, фэнтези</span>
+                    <div class="rating animated  fadeInRight">
                         <div class="rating-stars">
                             <img src="img/Vector.svg" alt="star" class="star">
                             <img src="img/Vector.svg" alt="star" class="star">
@@ -53,20 +55,20 @@
                             <img src="img/Vector-1.svg" alt="star" class="star">
                             <img src="img/Vector-1.svg" alt="star" class="star">
                         </div>
-                        <div class="rating-number">7/10</div>
+                        <div class="rating-number animated  fadeInRight">7/10</div>
                     </div>
                     <!-- /.rating -->
-                    <h1 class="main-title">Ведьмак</h1>
-                    <p class="main-description">Ведьмак Геральт, мутант и убийца чудовищ, на своей верной лошади по
+                    <h1 class="main-title animated  fadeInRight">Ведьмак</h1>
+                    <p class="main-description animated  fadeInRight">Ведьмак Геральт, мутант и убийца чудовищ, на своей верной лошади по
                         кличке
                         Плотва путешествует по Континенту. За тугой мешочек чеканных монет этот мужчина избавит вас от
                         всякой настырной нечисти — хоть от чудищ болотных, оборотней и даже заколдованных принцесс. </p>
-                    <button class="button">Смотреть онлайн</button>
+                    <a data-fancybox href="https://www.youtube.com/watch?v=kIh3eW9j2X4" class="button animated  fadeInRight">Смотреть трейлер</a>
                 </div>
                 <!-- /.content -->
-                <button class="play">
+                <a data-fancybox href="https://www.youtube.com/watch?v=kIh3eW9j2X4" class="play">
                     <img src="img/play.svg" alt="play" class="play-img">
-                </button>
+                </a>
                 <!-- /.play -->
             </div>
             <!-- /.main-content -->
@@ -153,6 +155,8 @@
         </div>
         <!-- /.container -->
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/swiper.min.js"></script>
     <script src="js/main.js"></script>
 </body>
